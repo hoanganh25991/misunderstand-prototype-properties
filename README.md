@@ -1,6 +1,7 @@
-When a new function to an obj, through Object.create, the copied-obj from the origin also has this new added function
+When adding new function to origin-obj, through Object.create, the copied-obj from the origin also has this new added function
 
-This is prototype, but it's not.
+This is prototype !?.
+No, it's not.
 
 ![object-create](https://github.com/hoanganh25991/misunderstand-prototype-properties/raw/master/img/object-create.png)
 
