@@ -7,3 +7,7 @@ let c1 = Object.create(c);
 c.sayHello = () => console.log('sayHello');
 // Now c1 can sayHello
 c1.sayHello();
+
+Coder.prototype.do = () => console.log('type code');
+
+console.dir(c);
